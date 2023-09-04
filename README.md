@@ -1,2 +1,2 @@
-# Inflearn_code.camp
-인프런 코드캠프 - 웹 개발 기초다지기
+# CSS
+## 자주 쓰는 CSS 개념 기초 다지기 ✨
