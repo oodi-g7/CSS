@@ -32,3 +32,28 @@
 - top/left/bottom/right 적용 가능
 
 <img src="./img/03_Position/3-3.jpg">
+
+## 5. position : fixed
+- 스크롤과 무관하게 뷰포트를 기준으로 요소의 위치를 설정할 수 있다.
+    - 기준 : viewport
+
+<img src="./img/03_Position/3-4.png">
+
+<img src="./img/03_Position/3-5.png">
+
+## 6. position : sticky
+- 요소의 원래 위치에 있다가 스크롤이 내려가면 지정한 좌표에 고정.
+    - 스크롤이 내려가면 지정한 좌표에 고정됨
+    - 기준 : 부모 요소의 좌표
+
+<img src="./img/03_Position/3-6.png">
+
+<img src="./img/03_Position/3-7.png">
+    
+## 7. z-index
+- 여러개의 요소가 겹쳐져 있을 때, 무엇이 앞으로 나올지 결정하는 속성.
+    - 기본값 : auto
+
+<img src="./img/03_Position/3-8.png">
+
+<img src="./img/03_Position/3-9.png">
