@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box-wrapper {
+            box-sizing: border-box;
+            width: 700px;
+            height: 570px;
+            border: 2px solid #ffcccc;
+            display: flex;
+            flex-direction: column;
+            padding: 10px 10px 20px 10px;
+            transition: all .1s ease-in-out .1s;
+        }
+        .box-wrapper:hover {
+            border: 2px solid rgb(241, 34, 103);
+        }
+        p {
+            padding-left: 10px;
+        }
+        .box {
+            height: 50px;
+            width: 50px;
+            background-color: #ffcccc;
+            color: palevioletred;
+            display: flex;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 3s linear .5s;
+            
+        }
+        .linear {
+            height: 50px;
+            width: 600px;
+            background-color: rgb(241, 34, 103);
+            color: white;
+            display: flex;
+            border-radius: 10px;
+            padding: 0px 20px;
+            transition: all 3s linear .5s;
+        }
+        .ease {
+            height: 50px;
+            width: 600px;
+            background-color: rgb(241, 34, 103);
+            color: white;
+            display: flex;
+            border-radius: 10px;
+            padding: 0px 20px;
+            transition: all 3s ease .5s;
+        }
+        .ease-in {
+            height: 50px;
+            width: 600px;
+            background-color: rgb(241, 34, 103);
+            color: white;
+            display: flex;
+            border-radius: 10px;
+            padding: 0px 20px;
+            transition: all 3s ease-in .5s;
+        }
+        .ease-out {
+            height: 50px;
+            width: 600px;
+            background-color: rgb(241, 34, 103);
+            color: white;
+            display: flex;
+            border-radius: 10px;
+            padding: 0px 20px;
+            transition: all 3s ease-out .5s;
+        }
+        .ease-in-out{
+            height: 50px;
+            width: 600px;
+            background-color: rgb(241, 34, 103);
+            color: white;
+            display: flex;
+            border-radius: 10px;
+            padding: 0px 20px;
+            transition: all 3s ease-in-out .5s;
+        }
+    </style>
+</head>
+<body>
+    <h1>Transition 실습</h1>
+    
+    <div class="box-wrapper">
+        <p>- transition-duration : linear</p>
+        <div id="linear" class="box"></div>
+        <p>- transition-duration : ease</p>
+        <div id="ease" class="box"></div>
+        <p>- transition-duration : ease-in</p>
+        <div id="ease-in" class="box"></div>
+        <p>- transition-duration : ease-out</p>
+        <div id="ease-out" class="box"></div>
+        <p>- transition-duration : ease-in-out</p>
+        <div id="ease-in-out" class="box"></div>
+    </div>
+
+    <script>
+        let wrapper = document.querySelector('.box-wrapper');
+        wrapper.addEventListener('mouseover', (e) => {
+            document.querySelector('#linear').setAttribute('class', 'linear');
+            document.querySelector('#ease').setAttribute('class', 'ease');
+            document.querySelector('#ease-in').setAttribute('class', 'ease-in');
+            document.querySelector('#ease-out').setAttribute('class', 'ease-out');
+            document.querySelector('#ease-in-out').setAttribute('class', 'ease-in-out');
+        })
+        wrapper.addEventListener('mouseout', (e) => {
+
+            document.querySelector('#linear').setAttribute('class', 'box');
+            document.querySelector('#ease').setAttribute('class', 'box');
+            document.querySelector('#ease-in').setAttribute('class', 'box');
+            document.querySelector('#ease-out').setAttribute('class', 'box');
+            document.querySelector('#ease-in-out').setAttribute('class', 'box');
+        })
+    </script>
+</body>
+</html>
