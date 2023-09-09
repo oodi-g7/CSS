@@ -60,4 +60,7 @@
 
 - 요소를 n만큼 회전시킨다.
 - 예시) `transform: rotate(n)`
+- 양수는 시계방향, 음수는 반시계방향으로 회전한다.
 
+## 6. [실습](./05_Transform.html)
+<img src="./img/05_Transform/5.png">

@@ -101,6 +101,7 @@
     </div>
 
     <script>
+        // box-wrapper에 마우스를 올리면 이벤트 발생
         let wrapper = document.querySelector('.box-wrapper');
         wrapper.addEventListener('mouseover', (e) => {
             document.querySelector('#linear').setAttribute('class', 'linear');
@@ -109,8 +110,8 @@
             document.querySelector('#ease-out').setAttribute('class', 'ease-out');
             document.querySelector('#ease-in-out').setAttribute('class', 'ease-in-out');
         })
+        
         wrapper.addEventListener('mouseout', (e) => {
-
             document.querySelector('#linear').setAttribute('class', 'box');
             document.querySelector('#ease').setAttribute('class', 'box');
             document.querySelector('#ease-in').setAttribute('class', 'box');
