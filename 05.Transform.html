@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        .container {
+            width: 500px;
+            height: 320px;
+            position: relative;
+        }
+        .base {
+            width: 200px;
+            height: 200px;
+            border: 2px dashed #aaaaaa;
+            border-radius: 10px;
+            background: #dddddd;
+        }
+        .target {
+            width: 200px;
+            height: 200px;
+            background: rgb(0, 0, 255, 0.8); /*투명도 주는 방법 : rgb -> rgba로 변경 후 마지막 인자값에 투명도값 입력*/
+            position: absolute;
+            top: 0;
+            left: 0;
+            border: 2px solid blue;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+        .target span {
+            color: #ffffff;
+        }
+        .target1 {
+            transform: translate(50%, 20px);
+        }
+        .target2 {
+            transform: scale(0.8, 1.2);
+        }
+        .target3 {
+            transform: skew(30deg, 20deg);
+        }
+        .target4 {
+        
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="base"></div>
+        <div class="target target1">
+            <span>translate</span>
+        </div>
+    </div>
+    <div class="container">
+        <div class="base"></div>
+        <div class="target target2">
+            <span>scale</span>
+        </div>
+    </div>
+    <div class="container">
+        <div class="base"></div>
+        <div class="target target3">
+            <span>skew</span>
+        </div>
+    </div>
+    <div class="container">
+        <div class="base"></div>
+        <div class="target target4">
+            <span>rotate</span>
+        </div>
+    </div>
+</body>
+</html>
