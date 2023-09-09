@@ -42,10 +42,9 @@
 ### 섹션5. position / transition
 - 단위 심화
 - position
-- [transition](./04_Transition.md)
-
+- [transition](./study/04_Transition.md)
 ### 섹션6. transform
-- [transform](./05_Transform.md)
+- [transform](./study/05_Transform.md)
 - transform 중첩 적용
 - transform + transition
 
