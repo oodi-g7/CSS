@@ -10,7 +10,7 @@
 - css 적용 방식
 - 선택자1
 - 폰트 기본 스타일
-- 박스 모델
+- [박스 모델](./study/BoxModel.md)
 - inline vs block
 - 실습1
 
@@ -42,9 +42,9 @@
 ### 섹션5. position / transition
 - 단위 심화
 - position
-- [transition](./study/04_Transition.md)
+- [transition](./study/Transition.md)
 ### 섹션6. transform
-- [transform](./study/05_Transform.md)
+- [transform](./study/Transform.md)
 - transform 중첩 적용
 - transform + transition
 

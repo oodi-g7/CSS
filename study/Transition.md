@@ -30,5 +30,5 @@
 - transition : [property] [duration] [timing function] [delay]
 - `transition : color 0.4s ease-in-out 1s`
 
-## 7. [실습](./04_Transition.html)
-<img src="../img/04_Transition/1.png">
+## 7. [실습](./Transition.html)
+<img src="../img/Transition/1.png">

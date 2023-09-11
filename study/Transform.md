@@ -9,7 +9,7 @@
     - rotate(angle)
 
 ## 2. translate(x, y)
-<img src="../img/05_Transform/1.png">
+<img src="../img/Transform/1.png">
 
 - 요소의 좌표를 움직일 수 있다.
 - X축으로 x만큼, Y축으로 y만큼 이동시킨다.
@@ -27,7 +27,7 @@
     - 예시) `transform : translateY(n)`
 
 ## 3. scale(x, y)
-<img src="../img/05_Transform/2.png">
+<img src="../img/Transform/2.png">
 
 - X축으로 x만큼, Y축으로 y만큼 요소를 축소 혹은 확대한다.
 - 예시 ) `transform : scale(0.75, 1.1)`
@@ -42,7 +42,7 @@
     - 예시) `transform : scaleY(1.1)`
 
 ## 4. skew(x, y)
-<img src="../img/05_Transform/3.png">
+<img src="../img/Transform/3.png">
 
 - X축으로 x도 만큼, Y축으로 y도 만큼 요소를 기울인다.
 - 예시) `transform : skew(15deg, 10deg)`
@@ -56,11 +56,11 @@
     - 예시) `transform: skewY(15deg)`
 
 ## 5. rotate(n)
-<img src="../img/05_Transform/4.png">
+<img src="../img/Transform/4.png">
 
 - 요소를 n만큼 회전시킨다.
 - 예시) `transform: rotate(n)`
 - 양수는 시계방향, 음수는 반시계방향으로 회전한다.
 
-## 6. [실습](./05_Transform.html)
-<img src="../img/05_Transform/5.png">
+## 6. [실습](./Transform.html)
+<img src="../img/Transform/5.png">
