@@ -8,7 +8,34 @@
         * {
             box-sizing: border-box;
         }
-        .container {
+        .container1 {
+            width: 600px;
+            height: 500px;
+            padding: 10px;
+            background-color: #eeeeee;
+            border: 2px solid red;
+            display: flex;
+            /* flex-wrap: wrap;*/ 
+        }
+        .container1 div {
+            background: blue;
+            margin: 5px;
+            width: 200px; 
+            /* .container1에 flex-wrap 속성이 없으므로 width는 200px으로 설정했지만, 
+            이를 .container1에다 비좁게 구겨넣다보니 200px보다 작아짐*/
+            color: white;
+        }
+        .container1 .box4 {
+            order: 3;
+        }  
+        .container1 .box5 {
+            order: 1;
+        }
+        
+        
+        
+        
+        .container2 {
             width: 600px;
             height: 500px;
             padding: 10px;
@@ -18,22 +45,33 @@
             flex-wrap: wrap;
             align-content: space-evenly;
         }
-        .container div {
+        .container2 div {
             background: blue;
             margin: 5px;
             width: 200px;
             color: white;
         }
-        .box4 {
+        .container2 .box4 {
             order: 3;
         }  
-        .box5 {
+        .container2 .box5 {
             order: 1;
         }
     </style>
 </head>
 <body>
-    <div class="container">
+    <div class="container1">
+        <div>box1</div>
+        <div>box2</div>
+        <div>box3</div>
+        <div class="box4">box4</div>
+        <div class="box5">box5</div>
+        <div>box6</div>
+        <div>box7</div>
+        <div>box8</div>
+    </div>
+    
+    <div class="container2">
         <div>box1</div>
         <div>box2</div>
         <div>box3</div>
