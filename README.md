@@ -17,14 +17,14 @@
 ### 섹션1. 레이아웃(float & flex)
 - 레이아웃이란?
 - 선택자2
-- css 레이아웃의 흐름
-- float 레이아웃
-- flex 레이아웃
+- [css 레이아웃의 흐름](./study/FlexLayout.md)
+- [float 레이아웃](./study/FlexLayout.md)
+- [flex 레이아웃](./study/FlexLayout.md)
 - 실습2
 
 ### 섹션2. 레이아웃(flex2)
 - 선택자3
-- flex 레이아웃2
+- [flex 레이아웃2](./study/FlexLayout.md)
 - 실습3
 
 ### 섹션3. 폰트&단위

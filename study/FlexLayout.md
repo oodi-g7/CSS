@@ -148,3 +148,5 @@ display : flex
 - flex-basis : item의 기본 사이즈를 지정
 - flex-shrink : 설정된 숫자값에 따라 flex-container 요소 내부에서 flex-item요소의 크기가 축소됨
 - flex-grow : flex-item요소가 flex-container 요소 내부에서 할당 가능한 공간의 정도를 선언함
+
+## 7. [실습](./FlexLayout.html)
