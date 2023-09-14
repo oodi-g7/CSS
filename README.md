@@ -31,21 +31,21 @@
 - css 상속
 - 웹폰트
 - 폰트
-- 단위
+- [단위](./study/CSS단위.md)
 
 ### 섹션4. 배경&색상
 - [캐스케이딩](./study/Cascading.md)
 - 배경
 - 색상
-- 단위2
+- [단위2](./study/CSS단위.md)
 
 ### 섹션5. position / transition
-- 단위 심화
-- position
+- [단위 심화](./study/CSS단위.md)
+- [position](./study/Position.md)
 - [transition](./study/Transition.md)
 ### 섹션6. transform
 - [transform](./study/Transform.md)
-- transform 중첩 적용
+- [transform 중첩 적용](./study/Transform.md)
 - transform + transition
 
 ### 섹션7. animation
