@@ -18,6 +18,7 @@
             flex-direction: row;
             justify-content: space-between;
             align-items: flex-start;
+            margin: 5px;
         }
         .item {
             width: calc(25% - 7px);
@@ -56,11 +57,15 @@
             font-size: 22px;
             font-weight: 500;
             opacity: 0;
+            position: absolute;
+            bottom: -25px;
         }
         .textBox__price {
             font-size: 16px;
             font-weight: 400;
             opacity: 0;
+            position: absolute;
+            bottom: -20px;
         }
         /* :after를 이용하여 마우스 hover시 원하는 모양 만들기 */
         .item:after {
@@ -84,15 +89,19 @@
         }
         .item:hover .textBox__name {
             opacity: 1;
+            transform: translateY(-60px);
         }
         .item:hover .textBox__price {
             opacity: 1;
+            transform: translateY(-35px);
         }
         .item:after,
         .item .imgBox img,
-        .item .textBox__name,
-        .item .textBox__price {
+        .item .textBox__name {
             transition: all 0.4s ease-in-out;
+        }
+        .item .textBox__price {
+            transition: all 0.4s ease-in-out 0.2s; 
         }
     </style>
 </head>
@@ -109,11 +118,49 @@
         </div>
         <div class="item">
             <div class="imgBox">
+                <img src="../img/Transform+Transition/item2.png" alt="머그컵">
+            </div>
+            <div class="textBox">
+                <p class="textBox__name">머그컵</p>
+                <p class="textBox__price">32,000</p>
+            </div>
+        </div>
+        <div class="item">
+            <div class="imgBox">
+                <img src="../img/Transform+Transition/item3.jpeg" alt="거실용 슬리퍼">
+            </div>
+            <div class="textBox">
+                <p class="textBox__name">거실용 슬리퍼</p>
+                <p class="textBox__price">28,000</p>
+            </div>
+        </div>
+        <div class="item">
+            <div class="imgBox">
                 <img src="../img/Transform+Transition/item1.jpeg" alt="탁상용 조명">
             </div>
             <div class="textBox">
                 <p class="textBox__name">탁상용 조명</p>
                 <p class="textBox__price">260,000</p>
+            </div>
+        </div>
+    </div>
+    <div class="itemWrap">
+        <div class="item">
+            <div class="imgBox">
+                <img src="../img/Transform+Transition/item2.png" alt="머그컵">
+            </div>
+            <div class="textBox">
+                <p class="textBox__name">머그컵</p>
+                <p class="textBox__price">32,000</p>
+            </div>
+        </div>
+        <div class="item">
+            <div class="imgBox">
+                <img src="../img/Transform+Transition/item3.jpeg" alt="거실용 슬리퍼">
+            </div>
+            <div class="textBox">
+                <p class="textBox__name">거실용 슬리퍼</p>
+                <p class="textBox__price">28,000</p>
             </div>
         </div>
         <div class="item">
@@ -127,11 +174,49 @@
         </div>
         <div class="item">
             <div class="imgBox">
+                <img src="../img/Transform+Transition/item2.png" alt="머그컵">
+            </div>
+            <div class="textBox">
+                <p class="textBox__name">머그컵</p>
+                <p class="textBox__price">32,000</p>
+            </div>
+        </div>
+    </div>
+    <div class="itemWrap">
+        <div class="item">
+            <div class="imgBox">
+                <img src="../img/Transform+Transition/item3.jpeg" alt="거실용 슬리퍼">
+            </div>
+            <div class="textBox">
+                <p class="textBox__name">거실용 슬리퍼</p>
+                <p class="textBox__price">28,000</p>
+            </div>
+        </div>
+        <div class="item">
+            <div class="imgBox">
                 <img src="../img/Transform+Transition/item1.jpeg" alt="탁상용 조명">
             </div>
             <div class="textBox">
                 <p class="textBox__name">탁상용 조명</p>
                 <p class="textBox__price">260,000</p>
+            </div>
+        </div>
+        <div class="item">
+            <div class="imgBox">
+                <img src="../img/Transform+Transition/item2.png" alt="머그컵">
+            </div>
+            <div class="textBox">
+                <p class="textBox__name">머그컵</p>
+                <p class="textBox__price">32,000</p>
+            </div>
+        </div>
+        <div class="item">
+            <div class="imgBox">
+                <img src="../img/Transform+Transition/item3.jpeg" alt="거실용 슬리퍼">
+            </div>
+            <div class="textBox">
+                <p class="textBox__name">거실용 슬리퍼</p>
+                <p class="textBox__price">28,000</p>
             </div>
         </div>
     </div>
