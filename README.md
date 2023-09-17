@@ -46,7 +46,7 @@
 ### 섹션6. transform
 - [transform](./study/Transform.md)
 - [transform 중첩 적용](./study/Transform.md)
-- transform + transition
+- [transform + transition](./study/Transform+Transition.md)
 
 ### 섹션7. animation
 - animation의 원리
