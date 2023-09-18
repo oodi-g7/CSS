@@ -35,7 +35,7 @@
 
 ### 섹션4. 배경&색상
 - [캐스케이딩](./study/Cascading.md)
-- 배경
+- [배경](./study/배경.md)
 - 색상
 - [단위2](./study/CSS단위.md)
 
