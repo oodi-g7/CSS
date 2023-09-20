@@ -111,6 +111,7 @@
 - 앞서 배운 `word-break : break-all` 과 비교해본다.
 
     <img src="../img/Font/13.png">
+    
     - 두 속성은 비슷해보이지만 차이점이 존재한다.
     - `overflow-wrap: break-word;` 는 기본적으로 음절(띄어쓰기)을 기준으로 줄을 바꾸지만, 예시에 나온 WATERMELON처럼 한 줄에 들어가지 않는 긴 단어에 한해서만 영역을 벗어나는 부분을 줄바꿈해준다.
     - 반면에 `word-break: break-all;`은 글자단위로 줄바꿈을 하므로 WATERMELON 이라는 한 단어가 W/ATERMELO/N 과 같이 3줄로 쪼개지면서 가독성이 떨어진다.
@@ -122,7 +123,7 @@
     <img src="../img/Font/14.png">
 
     <img src="../img/Font/15.png">
-    
+
     - `overflow : auto;` 는 평소에는 스크롤이 없다가, 콘텐츠가 요소 밖으로 넘칠때 스크롤이 생김
 
 ## 15. text-overflow
