@@ -49,9 +49,9 @@
 - [transform + transition](./study/Transform+Transition.md)
 
 ### 섹션7. animation
-- animation의 원리
-- keyframes
-- animation
+- [animation의 원리](./study/Animation의%20원리.md)
+- [keyframes](./study/keyframes.md)
+- [animation](./study/Animation.md)
 - animation 실습
 
 ### 섹션8. grid 레이아웃
