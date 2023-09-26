@@ -52,7 +52,7 @@
 - [animation의 원리](./study/Animation의%20원리.md)
 - [keyframes](./study/keyframes.md)
 - [animation](./study/Animation.md)
-- animation 실습
+- [animation 실습](./study/animation.html)
 
 ### 섹션8. grid 레이아웃
 - grid 레이아웃
