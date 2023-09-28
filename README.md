@@ -55,7 +55,7 @@
 - [animation 실습](./study/animation.html)
 
 ### 섹션8. grid 레이아웃
-- grid 레이아웃
+- [grid 레이아웃](./study/gridLayout.md)
 - grid 속성
 - grid 레이아웃 실습
 - flex와 grid의 차이점
