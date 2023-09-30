@@ -56,12 +56,12 @@
 
 ### 섹션8. grid 레이아웃
 - [grid 레이아웃](./study/gridLayout.md)
-- grid 속성
-- grid 레이아웃 실습
-- flex와 grid의 차이점
+- [grid 속성](./study/grid속성.md)
+- [grid 레이아웃 실습](./study/gridLayout실습.html)
+- [flex와 grid의 차이점](./study/flex와grid의차이점.md)
 
 ### 섹션9. 반응형 레이아웃
 - 반응형 웹이란?
-- 미디어 쿼리
+- [미디어 쿼리](./study/MediaQuery.md)
 - breakPoint
 - 반응형 실습

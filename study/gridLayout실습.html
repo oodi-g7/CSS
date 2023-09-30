@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>gridLayout실습</title>
     <style>
         * {
             box-sizing: border-box;
@@ -14,15 +14,19 @@
         }
         /*아이템 카드 부분, content*/
         .itemWrap {
-            display: flex;
+            /* display: flex;
             flex-direction: row;
             justify-content: space-between;
             align-items: flex-start;
-            flex-wrap: wrap;
+            flex-wrap: wrap; */
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+            grid-gap: 7px;
         }
         .item {
-            width: calc(25% - 7px);
-            aspect-ratio: 6 / 5; /*대상요소의 가로와 세로 규격을 일정비율로 유지시켜주는 속성*/
+            /* width: calc(25% - 7px); */
+            aspect-ratio: 6 / 5;
             position: relative;
             overflow: hidden;
             border-radius: 10px;
