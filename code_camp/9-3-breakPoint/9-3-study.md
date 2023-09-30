@@ -6,7 +6,7 @@
 - 간단하게 말해서, pc / 태블릿 / 모바일의 기준이 되는 규격 분기
 
 - 일반적으로 사용하는 breakPoint
-<table style="width:100%">
+<table>
     <thead>
         <tr>
             <th>크기</th>
@@ -33,4 +33,4 @@
     </tbody>
 </table>
 
-## [실습](./9-3-index.html)
+## 2. [실습](./9-3-index.html)
