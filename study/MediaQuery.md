@@ -10,5 +10,11 @@
       적용시킬 스타일 시트를 작성*/
 }
 ```
+```css
+@media screen and (min-width : 500px){
+    /*스크린의 viewport너비가 500px이상일 경우 
+      적용시킬 스타일 시트를 작성*/
+}
+```
 
 ## [실습](./MediaQuery.html)
