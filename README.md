@@ -63,5 +63,5 @@
 ### 섹션9. 반응형 레이아웃
 - 반응형 웹이란?
 - [미디어 쿼리](./study/MediaQuery.md)
-- breakPoint
+- [breakPoint](./study/breakPoint.md)
 - 반응형 실습
