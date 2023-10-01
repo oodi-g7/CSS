@@ -18,7 +18,7 @@
 
 ### 섹션1. 레이아웃(float & flex)
 - 레이아웃이란?
-- 선택자2
+- [선택자2](./code_camp/1-2-선택자2/1-2-study.md)
 - [css 레이아웃의 흐름](./code_camp/1-3-CSS레이아웃의흐름/1-3-study.md)
 - [float 레이아웃](./code_camp/1-4-Float레이아웃/1-4-study.md)
 - [flex 레이아웃](./code_camp/1-5-Flex레이아웃/1-5-study.md)
