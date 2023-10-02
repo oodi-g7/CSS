@@ -13,7 +13,7 @@
 - 선택자1
 - 폰트 기본 스타일
 - [박스 모델](./code_camp/0-6-BoxModel/0-6-study.md)
-- inline vs block
+- [inline vs block](./code_camp/0-7-Inline_VS_Block/0-7-study.md)
 - 실습1
 
 ### 섹션1. 레이아웃(float & flex)
