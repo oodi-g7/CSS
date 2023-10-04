@@ -5,10 +5,10 @@
 
     <img src="./1.png">
 
-- 내용이 들어가는 Content Box
-- Content Box를 감싸는 여백, Padding Box
-- Padding Box를 감싸는 외곽, Border Box
-- 외부 여백에 해당하는 Margin Box
+- 내용이 들어가는 **Content Box**
+- Content Box를 감싸는 여백, **Padding Box**
+- Padding Box를 감싸는 외곽, **Border Box**
+- 외부 여백에 해당하는 **Margin Box**
 
 ## 2. 실습
 ```html
